@@ -401,7 +401,11 @@ li {
 }
 
 .modal-cast ul li {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
     text-align: center;
 }
 
