@@ -143,7 +143,7 @@ function createMovieModal(movie) {
   fetch(modalDateUrl).then((res) => res.json()).then((data) => {
     const modalDateruntime = data.runtime;
     const modalDateText = document.createElement("p");
-      modalDateText.textContent = "Durée :   "  + "    " + modalDateruntime + "  " + "minutes";
+      modalDateText.textContent = "Durée :    "  + "                     " + modalDateruntime + "  " + "minutes";
       modalDate.appendChild(modalDateText);
     
     });
